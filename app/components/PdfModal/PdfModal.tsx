@@ -1,5 +1,5 @@
 import React from 'react';
-import './PDFModal.css';
+import './PdfModal.css';
 
 interface PDFModalProps {
   pdfUrl: string;
