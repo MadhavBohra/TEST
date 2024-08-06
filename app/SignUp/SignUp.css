@@ -1,0 +1,220 @@
+body {
+  font-family: 'Lufga', sans-serif;
+  margin: 0;
+  overflow-y:scroll;
+}
+ 
+.login-container {
+  display: flex;
+  height: 100%; /* Ensure the container takes the full viewport height */
+  background-color: #ffffff;
+  flex-direction: row;
+}
+
+@media (max-width: 50vw) {
+  .login-container {
+    flex-direction: column; /* Stack the image below the form on small screens */
+  }
+}
+
+.form-container {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 10vh;
+  height:auto;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+h2, h4, h6 {
+  color: #254336;
+  margin: 0;
+  padding: 0.5vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 30vw;
+}
+
+label {
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  max-width: 100%; /* Ensure labels take full width */
+  color:#254336;
+}
+
+input {
+  margin-bottom: 0rem;
+  padding: 0.5rem;
+  border: 0.15vh solid #ccc;
+  border-radius: 0.5vh;
+  width: 100%; /* Make inputs take full width */
+  color:#254336;
+}
+
+.password-input {
+  position: relative;
+  width: 100%;
+}
+
+.password-input input {
+  padding-right: 2.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0rem;
+  border: 0.15vh solid #ccc;
+  border-radius: 0.5vh;
+  width: 100%;
+  color:#254336;
+}
+
+.eye-icon {
+  position: absolute; /* Position the eye icon absolutely within the container */
+  top: 50%; /* Vertically center the icon */
+  right: 2vh; /* Position the eye icon to the right with some padding */
+  transform: translateY(-50%); /* Adjust the vertical alignment to be perfectly centered */
+  cursor: pointer;
+  width: 5vh; /* Adjust the width as needed */
+  height: auto;
+  pointer-events: auto; /* Ensure the icon is clickable */
+}
+
+.Pwdconditions {
+  color: #254336;
+  margin-top: 0.5vh;
+  padding-bottom: 1vh;
+  margin-bottom: 0.5vh;
+  margin-left: -2.0vw;
+  font-size: xx-small; /* Set the font size to xx-small */
+  line-height: 2vh;
+}
+
+.LogIn, .Terms, .PrivacyPolicy {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.LogIn:hover, .Terms:hover, .PrivacyPolicy:hover {
+  text-decoration: underline;
+}
+
+.create-acc-btn, .google-btn, .facebook-btn {
+  padding: 0.75rem;
+  margin-bottom: 0.25rem;
+  border: none;
+  border-radius: 7.5vh;
+  cursor: pointer;
+}
+
+.create-acc-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+.google-btn, .facebook-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.google-btn {
+  background-color: #db4437;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align image container to the right */
+  overflow: hidden; /* Ensure the image container does not overflow */
+}
+
+.image-container img {
+  height: 100vh; /* Make the image take the full height of the container */
+  width: 40vw; /* Maintain the aspect ratio */
+  position:fixed;
+  object-fit: fill;
+}
+
+@media (max-width: 80vw) {
+  .image-container img {
+    height: 40vh; /* Adjust height for smaller screens */
+    width: 100vw;
+  }
+}
+
+.or-separator {
+  display: flex;
+  align-items: center;
+  margin: 0rem 0;
+  width: 100%;
+}
+
+.or-separator .line {
+  flex: 1;
+  height: 0.25vh;
+  background-color: #ccc;
+}
+
+.or-separator .or-text {
+  margin: 0 1rem;
+  color: #666;
+  font-weight: bold;
+}
+
+.consent-checkbox-wrapper {
+  display: flex;
+  align-items: center; /* Align items in the center vertically */
+  justify-content: flex-start;
+  font-size: 1vh;
+  margin: 0;
+  margin-bottom: 0rem;
+  padding-bottom: 0.5vh;
+  width: 100%; /* Ensure labels take full width */
+}
+
+.consent-checkbox-wrapper input[type="checkbox"] {
+  color: #254336;
+  margin: 0;
+  margin-left: -3vw;
+  margin-bottom: 0.5rem;
+  margin-right: 0.1rem; /* Add a small margin to separate checkbox from text */
+  accent-color: #254336; /* Customize the checkbox color */
+}
+
+.consent-checkbox-wrapper label {
+  color: #254336;
+  margin-left: -2.5vw;
+  margin-bottom: 0.5rem;
+  font-size: 2vh; /* Adjust the font size */
+  line-height: 2.2vh;
+  width: 100vw; /* Adjust width to fit the text properly */
+  word-wrap: break-word; /* Ensure text wraps within the label */
+}
+
+.consent-checkbox-wrapper label a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.consent-checkbox-wrapper label a:hover {
+  text-decoration: underline;
+}

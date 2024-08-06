@@ -1,0 +1,143 @@
+.background {
+  background-image: url('/Background.png');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  width: 100%;
+  height:100vh;
+  margin: 0%;
+  z-index: -1;
+  
+}
+.container {
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top:10vh;
+    left:2vw;
+  }  
+  
+  .headerTitle {
+    font-family: 'Lufga', sans-serif;
+    font-size:2vh;
+    margin: 0;
+    position: absolute;
+    top:2vh;
+    left:1vw;
+  }
+  .updateButton {
+    background-color: #BDCFC666;
+    border: solid;
+    color: #254336;
+    padding: 1vh 1vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    position: absolute;
+    top:4vh;
+    left:1vw;
+    width:7vw;
+  }
+  .updateButton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  .historyButton{
+    background-color: #BDCFC666;
+    border: solid;
+    color: #254336;
+    padding: 1vh 1vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    position: absolute;
+    top:4vh;
+    left:10vw;
+    width:7vw;
+  }
+  .historyButton:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+  }
+  .usernamecard{
+    position: absolute;
+    top:8vh;
+    left:1vw;
+  }
+
+  .stepcounter{
+    position: absolute;
+    top:27vh;
+    left:31vw;
+  }
+  .caloriecounter{
+    position: absolute;
+    top:39vh;
+    left:31vw;
+  }
+  .watertaken{
+    position: absolute;
+    top:51vh;
+    left:31vw;
+  }
+  .graph{
+    position: absolute;
+    top:27vh;
+  }
+  .reminder{
+    position:absolute;
+    top:68vh;
+    left:1vw;
+  }
+  .report{
+    position:absolute;
+    top: 68vh;
+    left:18vw;
+  }
+  .profilecard{
+    position: absolute;
+    top: 8vh;
+    left: 60vw;
+  }
+
+  .datepicker{
+    position: absolute;
+    top: 39vh;
+    left: 60vw;
+    margin-bottom: 1vh;
+  }
+  .upcomingevent{
+    position: absolute;
+    top:55vh;
+    left:60vw;
+  }
+  .postWorkoutSessionCard{
+    position: absolute;
+    top:69vh;
+    left:60vw;
+  }
+.vl{
+  border-left: 5px solid black;
+  height: 85vh;
+  z-index: 2;
+  position: absolute;
+  top:5vh;
+  left:50vw;
+}

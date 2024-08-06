@@ -1,0 +1,5 @@
+.chartContainer {
+  width: 30vw; /* Set the width as a percentage of the viewport width */
+  height: 40vh; /* Set the height as a percentage of the viewport height */
+  margin: 0 auto; /* Center the chart */
+}

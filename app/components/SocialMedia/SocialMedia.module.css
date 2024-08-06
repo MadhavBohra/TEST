@@ -1,0 +1,58 @@
+.socialIcon,
+.socialIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.socialIcon {
+  width: 3vw;
+  height: 9vh;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialIcon1 {
+  height: 9vh;
+  width: 2vw;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 9px;
+}
+.socialIcon2 {
+  height: 6vh;
+  width: 3vw;
+  position: relative;
+  object-fit: fill;
+  z-index: 1;
+}
+.socialIcons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0  2px;
+}
+.socialIcon3 {
+  height: 7vh;
+  width: 3vw;
+  position: relative;
+  object-fit: fill;
+  z-index: 1;
+}
+.socialIcons2,
+.socialMedia {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialIcons2 {
+  flex-direction: row;
+  padding: 0  2px;
+}
+.socialMedia {
+  flex-direction: column;
+  gap: 3.3px;
+}
+

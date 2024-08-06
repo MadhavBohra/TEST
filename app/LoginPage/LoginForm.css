@@ -1,0 +1,182 @@
+body {
+  height: 100vh;
+  font-family: 'Lufga', sans-serif;
+  margin: 0px 0px 0px 0px;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh; /* Ensure the container takes the full viewport height */
+  background-color: #ffffff;
+}
+
+.form-container {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 10vh;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+}
+
+h2 {
+  color:#254336;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color:#254336;
+  margin: 0.5rem 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5vh;
+  width: 100vw;
+  max-width: 30vw;
+}
+
+label {
+  color:#254336;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  max-width: 100%; /* Ensure labels take full width */
+}
+
+input {
+  color:#254336;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 0.15vh solid #ccc;
+  border-radius: 0.5vh;
+  width: 100%; /* Make inputs take full width */
+}
+
+.password-input {
+  position: relative;
+  width: 100%;
+}
+
+.password-input input {
+  padding-right: 2.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 0.15vh solid #ccc;
+  border-radius: 0.5vh;
+  width: 100%;
+}
+
+.eye-icon {
+  position: absolute; /* Position the eye icon absolutely within the container */
+  top: 2.5vh; /* Vertically center the icon */
+  right: 2vh; /* Position the eye icon to the right with some padding */
+  transform: translateY(-50%); /* Adjust the vertical alignment to be perfectly centered */
+  cursor: pointer;
+  width: 5vh; /* Adjust the width as needed */
+  height: auto;
+  pointer-events: auto; /* Ensure the icon is clickable */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.forgot-password {
+  margin-bottom: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 0rem;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.Sign-Up {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.Sign-Up:hover {
+  text-decoration: underline;
+}
+
+.login-btn,
+.google-btn,
+.facebook-btn {
+  padding: 0.75rem;
+  margin-bottom: 0.25rem;
+  border: none;
+  border-radius: 7.5vh;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #007BFF;
+  margin-top: 1vh;
+  color: white;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Align image container to the right */
+  overflow: hidden; /* Ensure the image container does not overflow */
+}
+
+.image-container img {
+  height: 100vh; /* Make the image take the full height of the container */
+  width: 40vw; /* Maintain the aspect ratio */
+  position: fixed;
+  object-fit: fill;
+}
+
+.or-separator {
+  display: flex;
+  align-items: center;
+  margin: 0rem 0;
+  width: 100%;
+}
+
+.or-separator .line {
+  flex: 1;
+  height: 0.25vh;
+  background-color: #ccc;
+}
+
+.or-separator .or-text {
+  margin: 1vh 1vh;
+  color: #666;
+  font-weight:bold;
+}

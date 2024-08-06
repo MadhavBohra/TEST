@@ -1,0 +1,308 @@
+.container, .contact {
+  font-family: 'Lufga', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('/Background.png'); /* Adjust the path accordingly */
+  background-size: cover; /* This ensures the image covers the entire background */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-position: center; /* This centers the image */
+  height: 100vh; /* Ensures the background covers the full viewport height */
+  width:100%
+}
+
+.productsupport {
+  font-family: 'Lufga', sans-serif;
+  font-size: 3vh;
+  font-weight: 600;
+  line-height: 45.68px;
+  text-align: left;
+  position: absolute;
+  width:45vw;
+  top: 18vh;
+  left: 5vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+}
+.phead{
+  font-family: 'Lufga', sans-serif;
+  font-size: 4vh;
+  font-weight: 600;
+  line-height: 45.68px;
+  text-align: left;
+  position: absolute;
+  width:65vw;
+  top: 0vh;
+  left: 0vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+
+}
+
+.address {
+  font-family: 'Lufga', sans-serif;
+  text-align: left;
+  position: absolute;
+  width: 30vw;
+  height: 20vh;
+  top: 30vh;
+  left: 5vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+}
+.adhead{
+  font-family: 'Lufga', sans-serif;
+  font-size: 3.5vh;
+  font-weight: 00;
+  line-height: 28.71px;
+  text-align: left;
+  position: absolute;
+  top: 5vh;
+  left: 2vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+  margin: 1vh;
+}
+.adtext{
+  font-family: 'Lufga', sans-serif;
+  font-size: 2.5vh;
+  font-weight: 250;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top:10vh;
+  left:2vw;
+  margin:1vh;
+}
+.adhead2{
+  font-family: 'Lufga', sans-serif;
+  font-size: 3.5vh;
+  font-weight: 600;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top: 30vh;
+  left: 2vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+  margin: 1vh;
+}
+.adtext2{
+  font-family: 'Lufga', sans-serif;
+  font-size: 2.5vh;
+  font-weight: 250;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top:35vh;
+  left:2vw;
+  margin: 1vh;
+}
+
+.chead{
+  font-family: 'Lufga', sans-serif;
+  font-size: 3.5vh;
+  font-weight: 600;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top: 5vh;
+  left: 55vw;
+  width:3vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+  margin: 1vh;
+}
+.ctext{
+  font-family: 'Lufga', sans-serif;
+  font-size: 3vh;
+  font-weight: 500;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top: 10vh;
+  left: 55vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+  margin: 1vh;
+}
+.ctext1{
+  font-family: 'Lufga', sans-serif;
+  font-size: 3vh;
+  font-weight: 500;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top: 15vh;
+  left: 55vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+  margin: 1vh;
+}
+.ctext2{
+  font-family: 'Lufga', sans-serif;
+  font-size: 3vh;
+  font-weight: 500;
+  line-height: 4vh;
+  text-align: left;
+  position: absolute;
+  top: 25vh;
+  left: 55vw;
+  gap: 0px;
+  opacity: 0px;
+  color: #254336;
+  margin: 1vh;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:70vh;
+  right:2.5vw;
+}
+.social img {
+  margin-bottom: 15px; /* Increased space between each image */
+}
+.headercomp {
+  width: 100%;
+
+}
+.productSupportWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 51px;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: top 150px;;
+}
+.contactChild,
+.contactInner,
+.contactItem {
+  width: 65px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid #000;
+  box-sizing: border-box;
+  display: none;
+  z-index: 1;
+}
+.contactInner,
+.contactItem {
+  z-index: 2;
+}
+.contactInner {
+  z-index: 3;
+}
+.twitter1 {
+  margin: 0;
+}
+.instagram,
+.twitter {
+  width: 83px;
+  position: relative;
+  display: none;
+  height: 28px;
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+  z-index: 4;
+}
+.instagram {
+  width: 104px;
+  z-index: 5;
+}
+.blankLine,
+.linkedin1 {
+  margin: 0;
+}
+.facebook,
+.linkedin {
+  width: 104px;
+  position: relative;
+  display: none;
+  height: 28px;
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+  z-index: 6;
+}
+.facebook {
+  z-index: 7;
+}
+.backgroundPatternIcon,
+.footerChild {
+  position: absolute;
+  top: 0;
+  left: 26.1px;
+  width: 100%;
+  height: 200vh;
+  object-fit: cover;
+}
+.footerChild {
+  top: 347px;
+  left: 794px;
+  width: 0;
+  height: 332px;
+  object-fit: contain;
+  z-index: 1;
+}
+.footer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.contact {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(270deg, #f2f2f2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 199px 35px 81px;
+  box-sizing: border-box;
+  gap: 113px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: 'Lufga',sans-serif;
+  padding-bottom: 500px;
+}
+@media screen and (max-width: 1200px) {
+  .productSupportWrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contact {
+    gap: 56px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact {
+    gap: 28px;
+  }
+}

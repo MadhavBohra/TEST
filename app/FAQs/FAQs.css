@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lufga', sans-serif;
+  background-image: url('/Background.png'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: scroll;
+}
+
+.faqs-container {
+  width: 100vw;
+  max-width: 90vw;
+  margin: 10vh 10vh 0;
+  padding: 20px;
+  background-color: rgba(242, 242, 242, 0.55);
+  border-radius: 10px;
+}
+
+.intro-text {
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  list-style-position: inside; /* Ensure the numbers are inside the list item */
+}
+
+h1 {
+  color: #254336;
+}
+
+h3 {
+  font-weight: 300;
+  color: #254336;
+}
+
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  color: #254336;
+  font-size: 1.2em;
+  font-family: 'Lufga', sans-serif;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent; /* Make the background transparent */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:hover {
+  background-color: rgba(210, 210, 210, 0.5); /* Add a slight background color on hover */
+}
+
+.faq-answer {
+  display: block; /* Change from none to block */
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Lufga', sans-serif;
+  color: #254336;
+}
+
+.faq-answer p {
+  margin: 0;
+}
+
+.faq-item hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.icon img {
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+}

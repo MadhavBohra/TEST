@@ -1,0 +1,88 @@
+.background{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Use column layout for better responsiveness */
+  width: 100%;
+  height: 100vh;
+  background-image: url('/HomePage.png');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  margin: 0;
+  z-index: -1;
+}
+
+.container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Use column layout for better responsiveness */
+  width: 100%;
+  height: 100vh;
+  background-image: url('/HomePage.png');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  margin: 0;
+  z-index: 1;
+}
+.t1 {
+  font-family: 'Lufga', sans-serif;
+  color: #254336;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2vw; /* Relative font size */
+  margin: 2vh 0; /* Relative margin for vertical spacing */
+  min-height: 2vh;
+  position: absolute;
+  top:20vh;
+  left:5vw;
+  opacity: 1; /* Ensure opacity is set */
+}
+.t2 {
+  font-family: 'Lufga', sans-serif;
+  color: #254336;
+  font-weight: 600;
+  text-align: center;
+  font-size: 5vw; /* Relative font size */
+  margin: 2vh 0; /* Relative margin for vertical spacing */
+  min-height: 3vh;
+  position: absolute;
+  top:25vh;
+  left:5vw;
+  opacity: 1; /* Ensure opacity is set */
+}
+.b1 {
+  width: 20vw; /* Relative width */
+  height: 8vh; /* Relative height */
+  color: white;
+  font-family: 'Lufga', sans-serif;
+  font-weight: 400;
+  font-size: 1.5vw; /* Relative font size */
+  border: none;
+  background-color: #6B8A7A;
+  margin: 2vh auto; /* Center button with relative margin */
+  position:absolute;
+  top:40vh;
+  left:5vw;
+  cursor: pointer;
+  border-radius: 50px; /* Rounded corners */
+  opacity: 1; /* Ensure opacity is set */
+}
+.b2 {
+  width: 20vw; /* Relative width */
+  height: 8vh; /* Relative height */
+  color: black;
+  font-family: 'Lufga', sans-serif;
+  font-weight: 600;
+  font-size: 1.5vw; /* Relative font size */
+  border: none;
+  background-color: #E2E2E2;
+  margin: 2vh auto; /* Center button with relative margin */
+  max-height: 200px;
+  position:absolute;
+  top:80vh;
+  left:5vw;
+  border-radius: 50px; /* Rounded corners */
+  opacity: 1; /* Ensure opacity is set */
+  cursor:pointer;
+}

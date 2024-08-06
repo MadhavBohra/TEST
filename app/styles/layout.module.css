@@ -1,0 +1,83 @@
+
+.container {
+  overflow:hidden;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.dashstart {
+  flex: 0 0 300px; 
+  background-color:transparent; 
+  padding: 20px;
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.headerTitle {
+  font-family: 'Lufga', sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.graph {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+}
+.profilecard{
+  position: absolute;
+  top: 20vh;
+  left: 60vw;
+}
+
+.dashboard {
+  margin-top: 20px;
+  position: relative;
+}
+
+.vl {
+  border-left: 7px solid black;
+  border-radius: 2px;
+  height: 100vh;
+  position: absolute;
+  left: 50vw;
+  top: 0;
+}
+.background {
+  background-image: url('/Background.png');
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image */
+  width: 100%;
+  height:100vh;
+  margin: 0%;
+  z-index: -1;
+}
+.datepicker{
+  position: absolute;
+  top: 32vh;
+  left: 60vw;
+}
+.upcomingevent{
+  position: absolute;
+  top:45vh;
+  left:60vw;
+}
+.postWorkoutSessionCard{
+  position: absolute;
+  top:60vh;
+  left:60vw;
+}

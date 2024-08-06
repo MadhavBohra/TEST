@@ -1,0 +1,114 @@
+/* Blogs.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lufga', sans-serif;
+  background-image: url('/Background.png'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This makes the background image fixed on scroll */
+  overflow-y: scroll; /* Ensure the body is scrollable */
+}
+
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 10vh; /* To offset the fixed header */
+}
+
+.blog-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure content is spaced within the box */
+  margin: 0.5vw;
+  height:25vh;
+  width: 80vw;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  background-color: rgba(133, 170, 151, 0.5);
+  transition: transform 0.2s, box-shadow 0.2s, height 0.3s;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Ensure link color matches the surrounding text */
+  overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.text-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+}
+.blog-box.expanded {
+  height: auto; /* Allow height to adjust to content */
+}
+
+.blog-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.blog-box .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: calc(100% - 150px); /* Fixed width for text content */
+  padding: 0 20px; /* Add padding to ensure text does not touch the edges */
+}
+
+.blog-box.even {
+  flex-direction: row-reverse;
+}
+
+.blog-box .blog-image {
+  width: 130px; /* Fixed width for the image */
+  height: auto; /* Height will adjust based on aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio while filling the box */
+  border-radius: 40px; /* Optional: round corners of the image */
+}
+
+.blog-box h2 {
+  margin: 0 0 10px;
+  font-family: 'Lufga', sans-serif;
+  color: #254336;
+  font-size: 1.5em; /* Adjust font size */
+}
+
+.blog-box p {
+  margin: 0;
+  font-family: 'Lufga', sans-serif;
+  color: #254336;
+  font-size: 1em; /* Adjust font size */
+}
+.read-more {
+  display: inline-block;
+  padding: 1.5vh 2vh;
+  margin-top: 2vh;
+  background-color:#f2f2f2;
+  color: #254336;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10vh;
+  border-color: #254336;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+  color:#f2f2f2;
+  background-color:#254336;
+}
+
+.read-more:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}

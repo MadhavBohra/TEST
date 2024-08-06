@@ -1,0 +1,59 @@
+.upcomingEvents {
+  font-family: Arial, sans-serif;
+  width: 20vw;
+  height: 15vh;
+}
+
+.title {
+  font-size: 1.5vh;
+  font-weight: bold;
+  margin-bottom: 1.5vh;
+}
+
+.eventsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5vh;
+}
+
+.eventDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add space between title and icon */
+}
+
+.eventTitle {
+  font-size: 1.5vh;
+  margin: 0;
+}
+
+.iconContainer {
+  margin-left: 1vh; /* Add space between title and icon */
+}
+
+.bellIcon {
+  width: 1.5vh;
+  height: 1.5vh;
+}
+
+.eventDescription {
+  font-size: 1.5vh;
+  color: #666;
+  margin: 0.5vh 0;
+}
+
+.eventTime {
+  font-size: 1.25vh;
+  color: #999;
+}
+
+.dueSoon {
+  font-size: 1.25vh;
+  color: #f39c12;
+  margin-top: 0.5vh;
+}

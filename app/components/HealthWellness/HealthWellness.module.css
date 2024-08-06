@@ -1,0 +1,207 @@
+/*root {
+  --padding-16xl: 32px;
+  --padding-17xl: 34px;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --font-lufga: 'Lufga', sans-serif;
+  --gap-mini: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*/
+.ourServicesChild,
+.ourServicesInner,
+.ourServicesItem {
+  width: 65px;
+  height: 3px;
+  position: relative;
+  border-top: 3px solid var(--color-black);
+  display: none;
+  z-index: 0;
+}
+
+.ourServicesInner,
+.ourServicesItem {
+  z-index: 1;
+}
+
+.ourServicesInner {
+  z-index: 2;
+}
+
+.lineDiv,
+.login {
+  position: relative;
+}
+
+.lineDiv {
+  width: 65px;
+  height: 3px;
+  border-top: 3px solid var(--color-black);
+  display: none;
+  z-index: 3;
+}
+
+.login {
+  text-decoration: none;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+
+.loginField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.ourServices1 {
+  margin: 0;
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  font-size: 3.75rem; /* 60px */
+  font-weight: 600;
+  font-family: inherit;
+  color: #254336;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 5;
+  position: relative;
+  right: 306px;
+}
+
+.loginContainer,
+.servicesContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.loginContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2.5rem; /* Adjusted gap for flexibility */
+}
+
+.servicesContainer {
+  width: 100%;
+  max-width: 1064px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 2rem; /* Adjusted padding for flexibility */
+}
+
+.backgroundPatternIcon {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.image10Icon,
+.image11Icon,
+.image9Icon {
+  position: fixed;
+  top: 11vh;
+  height:96vh;
+  width:26vh;
+  object-fit: contain;
+  z-index: 4;
+}
+
+.image10Icon {
+  left: 44vw;
+}
+
+.image11Icon {
+  left: 72vw;
+}
+
+.image9Icon {
+  left: 16vw;
+}
+
+.ourServices,
+.root {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ourServices {
+  flex: 1;
+  background: linear-gradient(270deg, #f2f2f2);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 4rem 2rem;
+  gap: 3rem;
+}
+
+.root {
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 1.25rem;
+  color: var(--color-white);
+  font-family: var(--font-lufga);
+}
+
+@media screen and (max-width: 1125px) {
+  .servicesContainer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  .ourServices1 {
+    font-size: 3rem; /* 48px */
+  }
+  .loginContainer {
+    gap: 1.5rem;
+  }
+  .ourServices {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ourServices {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login {
+    font-size: 1rem; /* 16px */
+  }
+  .ourServices1 {
+    font-size: 2.25rem; /* 36px */
+  }
+  .loginContainer {
+    gap: 1rem;
+  }
+  .ourServices {
+    gap: var(--gap-mini);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}

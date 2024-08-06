@@ -1,0 +1,22 @@
+
+html,
+body {
+  body {
+    src:url('/fonts/LufgaRegular.ttf') format('truetype');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

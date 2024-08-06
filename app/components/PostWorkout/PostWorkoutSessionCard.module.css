@@ -1,0 +1,38 @@
+.card {
+    background-color:transparent ;
+    padding: 1.5vh;
+    border-radius: 10px;
+    width: 20vw;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Lufga, sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5vh;
+    font-weight: bold;
+    color: #000;
+    margin: 0 0 1vh 0;
+  }
+  
+  .content {
+    background-color: rgba(0, 128, 0, 0.05); /* Slightly transparent green background */
+    padding: 1.5vh;
+    border-radius: 8px;
+  }
+  
+  .subtitle {
+    font-size: 1.5vh;
+    font-weight: bold;
+    margin: 0 0 0.5vh 0;
+  }
+  
+  .time {
+    font-size: 1.5vh;
+    margin: 0 0 0.5vh 0;
+  }
+  
+  .coach {
+    font-size: 1.5vh;
+    color: #555;
+  }
+  

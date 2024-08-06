@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  margin-top: 1vh;
+  width: 95vw;
+  height: 5vh;
+  z-index: 1000; /* Ensures it stays above other content */
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  font-family: 'Lufga', sans-serif;
+  padding: 0;
+  gap: 5px;
+}
+
+.nav-links a {
+  margin: -7px;
+  width: 7vw;
+  text-decoration: none;
+  justify-content: center;
+  color: #254336; /* Change the color to #254336 */
+  font-weight: bold; /* Make the text bold */
+}
+
+.nav-links span {
+  margin: 0 5px;
+  color: #254336; /* Change the color to #254336 */
+}
+
+.nav-links .icon {
+  height: 24px; /* Adjust the size of the search icon */
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons .icon,
+.icons .bell,
+.icons .settings,
+.icons .avatar {
+  height: 24px;
+  margin-left: 15px;
+  cursor: pointer;
+}

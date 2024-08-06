@@ -1,0 +1,231 @@
+
+.whatWeDo {
+    width: 567px;
+    height: 41px;
+    position: relative;
+    font-weight: 800;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+    font-size: 71px;
+    padding-top:25px;
+    font-family: 'lufgaa',sans-serif;
+    left: 21px;
+    line-height:5vh;
+    padding-bottom: 30px;
+  }
+  .weProvideComprehensive {
+    height: 115px;
+    width: 73vw;
+    box-sizing: border-box;
+    padding-left: var(--padding-xl);
+    left:43px;
+    font-size: 36px;
+    font-family: 'lufga',sans-serif;
+    font-weight: 900;
+  }
+  .whatWeDoDescription {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 75vw;
+    margin-top: 36px;
+    text-align: left;
+    font-size: var(--font-size-8xl);
+    font-family: 'Lufgaa', serif;
+    font-weight: 900;
+  }
+  .missionElaboration,
+  .missionScope {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .missionScope {
+    align-self: stretch;
+  }
+  .missionElaboration {
+    flex: 1;
+    padding: var(--padding-9xs) 0 0;
+    box-sizing: border-box;
+    min-width: 721px;
+  }
+  .image8Icon {
+    left: 979px;
+    height: 28vhj;
+    width: 14vw;
+    object-fit: contain;
+    top: -140px;
+  }
+  .image8Icon,
+  .socialIcon,
+  .socialIcon1 {
+    position: relative;
+    z-index: 1;
+  }
+  .socialIcon {
+    width: 3vw;
+    height: 7vh;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .socialIcon1 {
+    height: 6vh;
+    width: 2vw;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs);
+  }
+  .socialIcon2 {
+    height: 5vh;
+    width: 3vw;
+    position: relative;
+    object-fit: scale-down;
+    z-index: 1;
+  }
+  .testimonials1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+  }
+  .socialIcon3 {
+    height: 6vh;
+    width: 3vw;
+    position: relative;
+    object-fit: scale-down;
+    z-index: 1;
+  }
+  .testimonials2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+  }
+  .socialProofContainer {
+    flex-direction: column;
+    gap: var(--gap-lgi-3);
+  }
+  .missionDetails,
+  .socialImpact,
+  .socialProofContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .socialImpact {
+    flex-direction: column;
+    padding: var(--padding-56xl) 8 0;
+    position: relative;
+    left: 1113px;
+  }
+  .missionDetails {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+    max-width: 100%;
+  }
+  .throughOurEfforts {
+    align-self: stretch;
+    height: 115px;
+    position: relative;
+    font-weight: 900;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+    font: size 25px;;
+    width:73vw;
+  
+  }
+  .visionStatement {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-62xl) 0 0;
+    box-sizing: border-box;
+    min-width: 671px;
+    max-width: 100%;
+  }
+  .image12Icon {
+    height: 30vh;
+    width: 15vw;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+    left: 986px;
+    bottom: 117px;
+  
+  }
+  .visionContent,
+  .visionContentWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .visionContent {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: var(--gap-lgi);
+  }
+  .visionContentWrapper {
+    width: 1369px;
+    justify-content: flex-end;
+    padding: 0 var(--padding-35xl);
+    box-sizing: border-box;
+    text-align: left;
+   font-family: 'lufga',sans-serif;
+   font-size:32px;
+   padding-top: 41px;
+  }
+  .missionContainer {
+    position: absolute;
+    top: 685px;
+    left: 12px;
+    width: 1393px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-12xs);
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-lufga);
+  }
+  @media screen and (max-width: 1025px) {
+    .whatWeDo {
+      font-size: var(--font-size-13xl);
+    }
+    .missionElaboration,
+    .visionStatement {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .whatWeDo {
+      font-size: var(--font-size-5xl);
+    }
+    .weProvideComprehensive {
+      font-size: var(--font-size-3xl);
+    }
+    .throughOurEfforts {
+      font-size: var(--font-size-xl);
+    }
+  }

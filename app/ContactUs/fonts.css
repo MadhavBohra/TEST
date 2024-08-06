@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Lufga";
+  src: url("/public/LufgaRegular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lufga";
+  src: url("/public/LufgaSemiBold.ttf");
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-lufga: Lufga;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-lg: 18px;
+  --font-size-16xl: 35px;
+  --font-size-9xl: 28px;
+  --font-size-2xl: 21px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-darkslategray: #254336;
+
+  /* Gaps */
+  --gap-lgi-3: 19.3px;
+  --gap-48xl: 67px;
+  --gap-14xl: 33px;
+  --gap-mid: 17px;
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-11xs: 2px;
+  --padding-4xs: 9px;
+  --padding-6xl: 25px;
+}
